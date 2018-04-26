@@ -1,0 +1,168 @@
+body {
+    font-family: "Black Han Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/comic-background-city-9.jpg");
+    background-repeat: repeat;
+    font-weight: lighter;
+    line-height: 1.6em;
+}
+
+.like{
+    background-color: green;
+    width: 40%;
+    margin: auto;
+    padding: 1em 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.like:hover{
+    transition: 0.1s;
+    padding: 1.2em 1.2em;
+    transform: rotate(-4deg);
+    box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+}
+
+.beside{
+    float: left;
+    padding: 1em 0em;
+    line-height: 1.2em;
+}
+.beside a {
+    color: white; 
+    text-decoration: none;
+    text-align: center;
+}
+.beside a:hover{
+    color: red;
+    transition: 0.1s;
+    box-shadow: 6px 6px 0px -4px rgba(0,0,0,0.75);
+}
+
+.profile__image{
+    margin: auto;
+    border: #2d2d2d;
+    max-width:60%;
+    max-height:50%;
+    border: 3px solid #272727;
+}
+
+.profile__name{
+    text-align: center;
+}
+.profile__age{
+    text-align: center;
+}
+.profile__superpower{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.power{
+    text-decoration: underline;
+    transform: rotate(-4deg);
+    color: red;
+}
+
+.headline{
+    background-color: black;
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+    padding-bottom: 64px;
+}
+
+.headline__h1{
+padding-bottom: 2em;
+}
+
+
+article {
+    border: 3px solid white;
+    max-width: 400px;
+    padding: 10px;
+    display: inline-grid;
+    background-color: rgba(27, 53, 139, 0.90);
+    margin: 1em;
+    line-height: 1.2em;
+}
+
+.article__form {
+    border: 3px solid white;
+    padding: 10px;
+    display: inline-grid;
+    background-color: rgba(27, 53, 139, 0.90);
+    margin: 1em;
+    max-width: 100%;
+}
+
+.red{background-color: red;}
+
+strong {
+    color: #9bff9b;
+}
+
+input, textarea, select {
+    display: block;
+    width: 450px;
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+
+
+::-webkit-input-placeholder {
+    color: #c7c6c6;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #587d6c;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #61ba82;
+}
+
+.notice.success {
+    color: #ddf2dd;
+    background-color: #66b266;
+}
+
+.notice {
+    padding: 1.5em 1em;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 0 1em 0;
+}
+
+
+
+.notice a:hover, .add_new:hover {
+    color: #2d2d2d;
+}
+
+
+a.add_new {
+    margin: 3em;
+    color: #ddf2dd;
+    background-color: #66b266;
+    transform: rotate(-6deg)
+}
+
+a.add_new.notice:hover {
+    background-color: #8ac78a;
+}
+
+form {
+    padding: 5em;
+    margin: auto;
+    
+}
